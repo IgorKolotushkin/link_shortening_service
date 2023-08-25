@@ -1,0 +1,10 @@
+{
+  "short_url_db": {
+    "iwitaxi": {
+      "iwi.ta/vmernu": "https://kiwitaxi.ru/search-results?ref=sf"
+    },
+    "aviasales": {
+      "avi.as/cqirwb": "https://www.aviasales.ru/search/KSF1007NDJ2107111?expected_price_currency=rub&expected_price_source=calendar&request_source=search_form"
+    }
+  }
+}

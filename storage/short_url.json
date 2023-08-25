@@ -1,0 +1,13 @@
+{
+  "short_url_db": {
+    "kiwitaxi": {
+      "kiw.it/gcosrs": "https://kiwitaxi.ru/search-results?ref=sf"
+    },
+    "aviasales": {
+      "avi.as/amtmis": "https://www.aviasales.ru/search/KSF1007NDJ2107111?expected_price_currency=rub&expected_price_source=calendar&request_source=search_form"
+    },
+    "onlinetours": {
+      "onl.in/vjlxal": "https://www.onlinetours.ru/hotels/russia/rostov-on-don/fg?adults=2&depart_city_id=10686&duration_from=5&duration_to=7&kids=0&search=40670a29cf8c30fc6dd922e2548518fb&start_from=2023-07-17&start_to=2023-07-24&ticket_strategy[]=include"
+    }
+  }
+}
