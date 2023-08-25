@@ -10,8 +10,7 @@ class DataBase:
     def read_db(self, name_db: str) -> dict:
         """Метод для загрузки данных в память"""
         with open(f"storage/{name_db}.json", "r") as file:
-            result: dict = json.loads(file.read())
-            return result
+            return json.loads(file.read())
 
     def _write_db(self, name_db: str, data: dict) -> None:
         """Метод для сохранения данных после изменения"""

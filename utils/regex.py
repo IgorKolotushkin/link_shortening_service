@@ -24,7 +24,8 @@ class RegexUrl:
         return result.group(0)
 
     def _get_alias_and_short_url(self, url: str) -> tuple[str, str]:
-        """Метод для получения псевдонима и короткого адреса из исходного url"""
+        """Метод для получения псевдонима
+        и короткого адреса из исходного url"""
         if not self._get_prefix(url):
             url: str = self._PREFIX + url
         result = re.search(self._PATTERN_ALIAS, url)
